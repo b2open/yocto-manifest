@@ -4,7 +4,7 @@
     <remote name="yocto" fetch="https://git.yoctoproject.org"/>
     <remote name="github" fetch="https://github.com/" />
 
-    <default revision="scarthgap" remote="yocto" sync-j="4" />
+    <default revision="scarthgap" sync-j="4" />
     
     <project name="poky.git" path="layers" remote="yocto"/>
     <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe"/>
