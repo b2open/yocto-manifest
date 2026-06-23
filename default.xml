@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="oe" fetch="https://github.com/openembedded"/>
+    <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+    <remote name="github" fetch="https://github.com/" />
+
+    <default revision="scarthgap" remote="yocto" sync-j="4" />
+    
+    <project name="poky.git" path="layers" remote="yocto"/>
+    <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe"/>
+    <project name="b2open/meta-b2open-treinamento.git" path="layers/meta-b2open-treinamento" remote="github"/>
+</manifest>
